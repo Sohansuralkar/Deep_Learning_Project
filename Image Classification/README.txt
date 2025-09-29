@@ -1,6 +1,10 @@
 Project Title:- Image CLassification using CNN
 This Project Demonstrate Real-Time Image Classification using Convolutional Neural Network using Pre-Trained Model like MobileNetV2.
 
+Goal:-Capture Live Video from your Webcam and classify each frame is one of the ImageSet Categories like(Dog, cat,keyboard etc.)
+Core Idea:- Used Pre trained CNN model MobileNetV2 to recognized object without having to train from scratch.
+OutPut:- Display the webcam feed with a label (class name + Confidence Percentage) overlaid in real-time.
+
 Description:-
 	In this Project we use your webcam along with Pre-Trained Convolutional Neural Network Model MobileNetV2 to classify objects in real-time.This System will capture video frames ,process them and display the predicted object label confidence percentage on the screen.
 
@@ -133,21 +137,9 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
  . CNN(Convolutional Neural Network):- Learns spatial features from images (edges-> textures->objects).
  . Tranfer Learning:- Using a model trained on a huge dataset(ImageNet) for your own application.
  . MobileNetV2 :- A lightwight CNN optimized for speed and accuracy , good for real-time applications.
- 
-
-
-
-
-
-
-
-		
-
-
-
-
 
 Author 
  Sohan Satish Suralkar
  Date : 29/09/2025
  Day :  Monday
+
